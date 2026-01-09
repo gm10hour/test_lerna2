@@ -12,6 +12,10 @@ importers:
         specifier: ^9.0.3
         version: 9.0.3
 
+  packages/package_a: {}
+
+  packages/package_b: {}
+
 packages:
 
   '@babel/code-frame@7.27.1':
