@@ -1,5 +1,5 @@
 {
-  "name": "package_a",
+  "name": "package_atest",
   "version": "1.0.2",
   "description": "",
   "main": "index.js",
@@ -10,5 +10,5 @@
   "author": "",
   "license": "ISC",
   "packageManager": "pnpm@10.18.3",
-  "gitHead": "0cf69d69ef3ff65bbf6e59f41234a9411dea0ac0"
+  "gitHead": "e7270189d9949f35f8fe91ba7ad1d99e2604aa20"
 }
