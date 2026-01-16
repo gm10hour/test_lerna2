@@ -1,0 +1,26 @@
+{
+  "name": "package_c",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "homepage": "https://github.com/gm10hour/test_lerna2#readme",
+  "bugs": {
+    "url": "https://github.com/gm10hour/test_lerna2/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gm10hour/test_lerna2.git"
+  },
+  "license": "ISC",
+  "author": "gaomengyun <gaomengyun@ainnovation.com>",
+  "main": "lib/package_c.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/package_c.test.js"
+  }
+}

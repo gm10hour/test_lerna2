@@ -1,0 +1,27 @@
+{
+  "name": "package_atest",
+  "version": "1.0.2",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": " ",
+    "dev": "node ./index.js init --vscode adfe  uiuui -h",
+    "commit": "node ./index.js commit-msg-scan",
+    "prepare": "husky"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.18.3",
+  "gitHead": "4949c5d3b34c680138f1bac08d6ffe984ba09340",
+  "dependencies": {
+    "@commitlint/cli": "^20.3.1",
+    "@commitlint/config-conventional": "^20.3.1",
+    "commander": "^14.0.2",
+    "commitlint": "^20.3.1",
+    "cross-spawn": "^7.0.6"
+  },
+  "devDependencies": {
+    "husky": "^9.1.7"
+  }
+}
