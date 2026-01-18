@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "lerna run dev",
-    "prepare": "husky"
+    "prepare": "husky",
+    "ci:publish": "lerna run ci:publish"
   },
   "keywords": [],
   "author": "",
