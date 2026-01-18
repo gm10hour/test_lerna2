@@ -6,6 +6,9 @@ on:
       - main
       - master
 
+# 并发控制，防止同时运行多个发布流程
+concurrency: ${{ github.workflow }}-${{ github.ref }}
+
 env:
   CI: true
 
@@ -16,8 +19,6 @@ jobs:
     steps:
       - name: Checkout code repository
         uses: actions/checkout@v4
-        with:
-          version: 10.18.3  # 替换为你的项目兼容的版本
 
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
@@ -36,7 +37,7 @@ jobs:
         with:
           commit: "chore: update versions"
           title: "chore: update versions"
-          publish: pnpm ci:publish
+          publish: pnpm ci:publish # publish: yarn release 在 scripts: {"release": "changeset publish"}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
