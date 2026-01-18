@@ -1,5 +1,11 @@
 # package_atest
 
+## 2.0.2
+
+### Patch Changes
+
+- 8fe06c5: yry
+
 ## 2.0.1
 
 ### Patch Changes
