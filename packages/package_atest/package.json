@@ -1,13 +1,17 @@
 {
   "name": "package_atest",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": " ",
     "dev": "node ./index.js init --vscode adfe  uiuui -h",
     "commit": "node ./index.js commit-msg-scan",
-    "prepare": "husky"
+    "prepare": "husky",
+    "changeset": "changeset",
+    "version": "changeset version",
+    "release": "changeset publish",
+    "ci:publish": "pnpm publish -r"
   },
   "keywords": [],
   "author": "",
